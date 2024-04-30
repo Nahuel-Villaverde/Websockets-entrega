@@ -30,7 +30,7 @@ app.use('/api/carts', cartsRouter);
 
 app.use('/realTimeProducts', viewsRouter)
 
-
+ 
 let nextProductId = 1;
 
 socketServer.on('connection', socket => {
